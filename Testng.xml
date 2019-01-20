@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="masterTestSuite" verbose="3" parallel="false"thread-count="1">
+<parameter name="browser" value="chrome" />
+
+	<test name="CreateAssignment" preserveorder="true">
+		<classes>
+			<class name="com.mhe.masterTestSuite.createcourse" />
+		</classes>
+	</test>
+</suite>
